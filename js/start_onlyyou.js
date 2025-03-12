@@ -60,7 +60,7 @@ function init_onlyyou() {
 // Function to play background music
 function playBackgroundMusic() {
     // Create an audio element dynamically
-    var audio = new Audio('path_to_your_music_file.mp3'); // Replace with the actual path to your music file
+    var audio = new Audio('music/Chillan-Chirukki-BGM.mp3'); // Replace with the actual path to your music file
     audio.loop = true; // Loop the music
     audio.autoplay = true; // Play automatically
     audio.volume = 0.5; // Set the volume (0 to 1)
